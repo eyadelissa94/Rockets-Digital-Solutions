@@ -1,0 +1,155 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6,
+button, a.btn {
+    font-family: 'Poppins', sans-serif;
+}
+
+.yellow-text {
+    color: #ffbd59;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+.icon-big {
+    font-size: 40px;
+    color: #ffbd59;
+}
+
+.services, .contact-us, .choose-us {
+    background-color: #2e2e2e;
+}
+
+a.btn, .submit-form-btn {
+    background-color: #ffbd59;
+    color: #2e2e2e;
+    font-size: 1.3rem;
+}
+
+/* Navbar */
+nav {
+    background-color: #2e2e2e;
+}
+
+.nav-link .btn-close{
+    width: auto;
+    height: auto;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.nav-link .btn-close:hover {
+    color: #ffbd59;
+}
+
+.navbar-toggler-icon {
+    background-image: url("") !important;
+    align-content: center;
+}
+
+.btn-close {
+    background-image: none;
+    align-content: center;
+    opacity: 1;
+}
+
+.offcanvas-header {
+    border-bottom: solid 1px;
+    border-color: #ffbd59;
+}
+
+.sidebar {
+    background-color: #2e2e2e;
+    backdrop-filter: blur(10px);
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.nav-link:hover {
+    color: #ffbd59;
+}
+
+a.btn:hover {
+    background-color: #916B33;
+}
+
+/* Hero */
+.hero {
+    color: #2e2e2e;
+}
+
+/* Services */
+.card {
+    box-shadow: 0px 0px 20px 0px rgb(113, 113, 113);
+}
+
+.card:hover {
+    background-color: #ffbd59;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #2e2e2e;
+    padding: 10px;
+    align-content: center;
+    justify-items: center;
+}
+
+.card-title {
+    color: #2e2e2e;
+}
+
+/* mission */
+.mission img {
+    box-shadow: 0px 0px 20px 0px rgb(113, 113, 113);
+}
+
+/* Contact us */
+.form-control:focus {
+    border-color: #4F4F4F;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 124, 124, 0.6);
+}
+
+.submit-form-btn:hover {
+    background-color: #916B33;
+}
+
+/* FAQs */
+.accordion-button:not(.collapsed) {
+    background-color: #ffbd59;
+}
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.15rem rgba(145, 107, 51, 0.25);
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .card {
+        min-height: 310px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { }
