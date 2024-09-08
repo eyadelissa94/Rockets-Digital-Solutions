@@ -346,22 +346,34 @@
               <p class="lead my-4 white-text">
                 Ready to Grow Your Business? Let's Talk!
               </p>
-              <form>
+              <form action="https://api.web3forms.com/submit" method="POST">
                 <div class="row">
                   <div class="col">
+                    <input type="hidden" name="access_key" value="7ab89e2e-b529-4bfe-98a6-054c712bfe8c">
+                    <label for="fName" class="form-label"></label>
                     <input
                       type="text"
                       class="form-control"
+                      name="first_name"
+                      id="fName"
                       placeholder="First name"
                       aria-label="First name"
-                    />
+                      required
+                      />
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
                   </div>
                   <div class="col">
+                    <label for="lName" class="form-label"></label>
                     <input
                       type="text"
                       class="form-control"
+                      name="last_name"
+                      id="lName"
                       placeholder="Last name"
                       aria-label="Last name"
+                      required
                     />
                   </div>
                 </div>
@@ -370,20 +382,25 @@
                   <input
                     type="email"
                     class="form-control"
+                    name="email"
                     id="exampleInputEmail1"
                     aria-describedby="emailHelp"
                     placeholder="Email address"
+                    required
                   />
-                  <div id="emailHelp" class="form-text">
+                  <div id="emailHelp" class="form-text white-text">
                     We'll never share your email with anyone else.
                   </div>
                 </div>
                 <div class="mb-3">
+                  <label for="formControlTextarea" class="form-label"></label>
                   <textarea
                     class="form-control"
-                    id="exampleFormControlTextarea1"
+                    id="formControlTextarea"
+                    name="message"
                     rows="3"
                     placeholder="Leave us a message.."
+                    required
                   ></textarea>
                 </div>
                 <button type="submit" class="btn submit-form-btn">Submit</button>
